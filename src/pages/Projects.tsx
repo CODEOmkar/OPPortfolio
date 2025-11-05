@@ -9,7 +9,7 @@ export default function Projects(){
                 colors={["#5aabe9ff", "#afd2edff", "#77b6e7ff", "#bad3e7ff", "#e4e8ebff"]}
                 animationSpeed={3}
                 showBorder={false}
-                className="text-5xl sm:text-6xl font-extrabold mb-10"
+                className="text-4xl sm:text-5xl font-extrabold mb-10"
             >
                 My Projects:
             </GradientText>

@@ -46,10 +46,10 @@ export default function Home() {
             </g>
           </svg>
 
-      <div className="relative z-10 flex flex-col items-center justify-center mt-8 sm:mt-16 space-y-6 px-4">
+      <div className="relative z-10 flex flex-col items-center justify-center mt-8 sm:mt-20 space-y-6 px-4">
         <GradientText 
           colors={["#f1f4f9ff", "#c5d3f6ff"]}
-          className="text-xl sm:text-2xl font-extrabold mb-2"
+          className="text-[15px] sm:text-2xl font-extrabold mb-2"
         >
           Solving Problems at the Intersection of Data and Design.
         </GradientText>

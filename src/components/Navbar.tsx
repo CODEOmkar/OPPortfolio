@@ -78,8 +78,8 @@ export default function Navbar() {
         {/* Small screen Glass Surface container */}
         <div className="absolute left-1/2 -translate-x-[calc(50%-40px)] top-[26px] z-10 block sm:hidden">
           <GlassSurface
-            width={200}
-            height={45}
+            width={190}
+            height={40}
             borderRadius={50}
             className="my-custom-class"
             displace={15}
@@ -91,7 +91,7 @@ export default function Navbar() {
             opacity={0.01}
             mixBlendMode="screen"
           >
-            <div className="text-[9px] text-white flex gap-2 items-center justify-center h-full">
+            <div className="text-[9px] text-white flex gap-1 items-center justify-center h-full">
               <button onClick={() => scrollToSection('home')} className="hover:text-blue-200 transition-colors">Home</button>
               <button onClick={() => scrollToSection('about')} className="hover:text-blue-200 transition-colors">About</button>
               <button onClick={() => scrollToSection('skills')} className="hover:text-blue-200 transition-colors">Skills</button>
