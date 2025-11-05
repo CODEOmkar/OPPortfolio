@@ -13,7 +13,7 @@ const scrollToSection = (id: string) => {
 
 export default function Home() {
   return (
-    <div id="home" className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden">
+    <div id="home" className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden pt-20">
       
       {/* === BACKGROUND LAYER === */}
       <div className="absolute inset-0 z-0 pointer-events-none pb-5">
