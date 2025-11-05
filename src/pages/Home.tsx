@@ -19,7 +19,7 @@ export default function Home() {
       <div className="absolute inset-0 z-0 pointer-events-none pb-5">
         <LiquidChrome
             baseColor={[0.05, 0.05, 0.07]}
-            speed={0.2}
+            speed={0.1}
             amplitude={0.4}
             interactive={true}
         />

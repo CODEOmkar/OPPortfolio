@@ -30,7 +30,8 @@ export default function Projects(){
                     <span className="font-medium text-white">Tech Stack:</span> HTML, CSS, TypeScript, React.js, Local Storage
                     </p>
                     <br></br>
-                    <div className="flex flex-wrap sm:gap-5 md:gap-15 lg:gap-20 justify-center pt-3 mt-auto">
+                    {/* For medium & large screens */}
+                    <div className="hidden md:flex flex-wrap md:gap-5 lg:gap-5 justify-center pt-3 mt-auto">
                         <GlassSurface width={120} height={50} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
                             <a href="https://github.com/CODEOmkar/NoteMark-" target="_blank" rel="noopener noreferrer" className="text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pl-6 pr-6">
                                 Code
@@ -38,6 +39,20 @@ export default function Projects(){
                         </GlassSurface>
                         <GlassSurface width={120} height={50} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
                             <a href="https://note-mark-git-main-omkar-patels-projects-313c7af5.vercel.app?_vercel_share=WCIafwrlRXdaoJVMQsIcNEBHHtpijYC6" target="_blank" rel="noopener noreferrer" className="text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pr-2 pl-2">
+                                Live Demo
+                            </a>
+                        </GlassSurface>
+                    </div>
+
+                    {/* For small screens */}
+                    <div className="flex md:hidden flex-wrap gap-4 justify-center pt-2 mt-auto">
+                        <GlassSurface width={100} height={40} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://github.com/CODEOmkar/NoteMark-" target="_blank" rel="noopener noreferrer" className="text-xs text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pl-6 pr-6">
+                                Code
+                            </a>
+                        </GlassSurface>
+                        <GlassSurface width={100} height={40} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://note-mark-git-main-omkar-patels-projects-313c7af5.vercel.app?_vercel_share=WCIafwrlRXdaoJVMQsIcNEBHHtpijYC6" target="_blank" rel="noopener noreferrer" className="text-xs text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pr-2 pl-2">
                                 Live Demo
                             </a>
                         </GlassSurface>
@@ -58,12 +73,32 @@ export default function Projects(){
                     <span className="font-medium text-white">Tech Stack:</span> Python, FastAPI, scikit-learn, Pandas, NumPy, React.js, Axios, HTML, CSS
                     </p>
                     <br></br>
-                    <div className="flex flex-wrap gap-4 justify-center pt-3 mt-auto">
+                    {/* For medium & large screens */}
+                    <div className="hidden md:flex flex-wrap md:gap-5 lg:gap-5 justify-center pt-3 mt-auto">
                         <GlassSurface width={120} height={50} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
                             <a href="https://github.com/CODEOmkar/Heart-Disease-Predictor" target="_blank" rel="noopener noreferrer" className="text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pl-6 pr-6">
                                 Code
                             </a>
                         </GlassSurface>
+                        {/* <GlassSurface width={120} height={50} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://note-mark-git-main-omkar-patels-projects-313c7af5.vercel.app?_vercel_share=WCIafwrlRXdaoJVMQsIcNEBHHtpijYC6" target="_blank" rel="noopener noreferrer" className="text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pr-2 pl-2">
+                                Live Demo
+                            </a>
+                        </GlassSurface> */}
+                    </div>
+
+                    {/* For small screens */}
+                    <div className="flex md:hidden flex-wrap gap-4 justify-center pt-2 mt-auto">
+                        <GlassSurface width={100} height={40} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://github.com/CODEOmkar/Heart-Disease-Predictor" target="_blank" rel="noopener noreferrer" className="text-xs text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pl-6 pr-6">
+                                Code
+                            </a>
+                        </GlassSurface>
+                        {/* <GlassSurface width={100} height={40} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://note-mark-git-main-omkar-patels-projects-313c7af5.vercel.app?_vercel_share=WCIafwrlRXdaoJVMQsIcNEBHHtpijYC6" target="_blank" rel="noopener noreferrer" className="text-xs text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pr-2 pl-2">
+                                Live Demo
+                            </a>
+                        </GlassSurface> */}
                     </div>
                 </SpotlightCard>
                 <SpotlightCard className="custom-spotlight-card text-gray-400 flex flex-col justify-between" spotlightColor="rgba(116, 161, 195, 0.2)">
@@ -77,12 +112,32 @@ export default function Projects(){
                     <span className="font-medium text-white">Tech Stack:</span> React.js, Node.js, Express.js, MongoDB, Gemini API
                     </p>
                     <br></br>
-                    <div className="flex flex-wrap gap-4 justify-center pt-3 mt-auto">
+                    {/* For medium & large screens */}
+                    <div className="hidden md:flex flex-wrap md:gap-5 lg:gap-5 justify-center pt-3 mt-auto">
                         <GlassSurface width={120} height={50} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
                             <a href="https://github.com/CODEOmkar/AyurKritima" target="_blank" rel="noopener noreferrer" className="text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pl-6 pr-6">
                                 Code
                             </a>
                         </GlassSurface>
+                        {/* <GlassSurface width={120} height={50} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://note-mark-git-main-omkar-patels-projects-313c7af5.vercel.app?_vercel_share=WCIafwrlRXdaoJVMQsIcNEBHHtpijYC6" target="_blank" rel="noopener noreferrer" className="text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pr-2 pl-2">
+                                Live Demo
+                            </a>
+                        </GlassSurface> */}
+                    </div>
+
+                    {/* For small screens */}
+                    <div className="flex md:hidden flex-wrap gap-4 justify-center pt-2 mt-auto">
+                        <GlassSurface width={100} height={40} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://github.com/CODEOmkar/AyurKritima" target="_blank" rel="noopener noreferrer" className="text-xs text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pl-6 pr-6">
+                                Code
+                            </a>
+                        </GlassSurface>
+                        {/* <GlassSurface width={100} height={40} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://note-mark-git-main-omkar-patels-projects-313c7af5.vercel.app?_vercel_share=WCIafwrlRXdaoJVMQsIcNEBHHtpijYC6" target="_blank" rel="noopener noreferrer" className="text-xs text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pr-2 pl-2">
+                                Live Demo
+                            </a>
+                        </GlassSurface> */}
                     </div>
                 </SpotlightCard>
 
@@ -98,12 +153,32 @@ export default function Projects(){
                     <span className="font-medium text-white">Tech Stack:</span> React.js, MongoDB, Express.js, Nods.js
                     </p>
                     <br></br>
-                    <div className="flex flex-wrap gap-4 justify-center pt-3 mt-auto">
+                    {/* For medium & large screens */}
+                    <div className="hidden md:flex flex-wrap md:gap-5 lg:gap-5 justify-center pt-3 mt-auto">
                         <GlassSurface width={120} height={50} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
                             <a href="https://github.com/CODEOmkar/Personal-Finance-Tracker" target="_blank" rel="noopener noreferrer" className="text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pl-6 pr-6">
                                 Code
                             </a>
                         </GlassSurface>
+                        {/* <GlassSurface width={120} height={50} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://note-mark-git-main-omkar-patels-projects-313c7af5.vercel.app?_vercel_share=WCIafwrlRXdaoJVMQsIcNEBHHtpijYC6" target="_blank" rel="noopener noreferrer" className="text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pr-2 pl-2">
+                                Live Demo
+                            </a>
+                        </GlassSurface> */}
+                    </div>
+
+                    {/* For small screens */}
+                    <div className="flex md:hidden flex-wrap gap-4 justify-center pt-2 mt-auto">
+                        <GlassSurface width={100} height={40} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://github.com/CODEOmkar/Personal-Finance-Tracker" target="_blank" rel="noopener noreferrer" className="text-xs text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pl-6 pr-6">
+                                Code
+                            </a>
+                        </GlassSurface>
+                        {/* <GlassSurface width={100} height={40} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://note-mark-git-main-omkar-patels-projects-313c7af5.vercel.app?_vercel_share=WCIafwrlRXdaoJVMQsIcNEBHHtpijYC6" target="_blank" rel="noopener noreferrer" className="text-xs text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pr-2 pl-2">
+                                Live Demo
+                            </a>
+                        </GlassSurface> */}
                     </div>
                 </SpotlightCard>
 
@@ -118,12 +193,32 @@ export default function Projects(){
                     <span className="font-medium text-white">Tech Stack:</span> HTML, CSS, JavaScript, Python
                     </p>
                     <br></br>
-                    <div className="flex flex-wrap gap-4 justify-center pt-3 mt-auto">
+                    {/* For medium & large screens */}
+                    <div className="hidden md:flex flex-wrap md:gap-5 lg:gap-5 justify-center pt-3 mt-auto">
                         <GlassSurface width={120} height={50} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
                             <a href="https://github.com/CODEOmkar/SKOMOR" target="_blank" rel="noopener noreferrer" className="text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pl-6 pr-6">
                                 Code
                             </a>
                         </GlassSurface>
+                        {/* <GlassSurface width={120} height={50} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://note-mark-git-main-omkar-patels-projects-313c7af5.vercel.app?_vercel_share=WCIafwrlRXdaoJVMQsIcNEBHHtpijYC6" target="_blank" rel="noopener noreferrer" className="text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pr-2 pl-2">
+                                Live Demo
+                            </a>
+                        </GlassSurface> */}
+                    </div>
+
+                    {/* For small screens */}
+                    <div className="flex md:hidden flex-wrap gap-4 justify-center pt-2 mt-auto">
+                        <GlassSurface width={100} height={40} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://github.com/CODEOmkar/SKOMOR" target="_blank" rel="noopener noreferrer" className="text-xs text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pl-6 pr-6">
+                                Code
+                            </a>
+                        </GlassSurface>
+                        {/* <GlassSurface width={100} height={40} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
+                            <a href="https://note-mark-git-main-omkar-patels-projects-313c7af5.vercel.app?_vercel_share=WCIafwrlRXdaoJVMQsIcNEBHHtpijYC6" target="_blank" rel="noopener noreferrer" className="text-xs text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pr-2 pl-2">
+                                Live Demo
+                            </a>
+                        </GlassSurface> */}
                     </div>
                 </SpotlightCard>
 
