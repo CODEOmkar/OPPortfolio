@@ -14,7 +14,7 @@ export default function Projects(){
                 My Projects:
             </GradientText>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pl-15 pr-15 pb-15">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pl-10 pr-10 pb-15">
                 <SpotlightCard className="custom-spotlight-card text-gray-400 flex flex-col justify-between" spotlightColor="rgba(116, 161, 195, 0.2)">
                     <h3 className="text-white font-semibold text-xl">NoteMark↓</h3>
                     <p className="text-sm text-gray-500 mb-2">Oct. 2025</p>
@@ -30,7 +30,7 @@ export default function Projects(){
                     <span className="font-medium text-white">Tech Stack:</span> HTML, CSS, TypeScript, React.js, Local Storage
                     </p>
                     <br></br>
-                    <div className="flex flex-wrap gap-30 justify-center pt-3 mt-auto">
+                    <div className="flex flex-wrap sm:gap-5 md:gap-15 lg:gap-20 justify-center pt-3 mt-auto">
                         <GlassSurface width={120} height={50} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
                             <a href="https://github.com/CODEOmkar/NoteMark-" target="_blank" rel="noopener noreferrer" className="text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pl-6 pr-6">
                                 Code

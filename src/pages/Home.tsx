@@ -58,12 +58,12 @@ export default function Home() {
           colors={["#4f8de9c7", "#afd2edff", "#77b6e7ff", "#bad3e7ff", "#e4e8ebff"]}
           animationSpeed={3}
           showBorder={false}
-          className="text-7xl sm:text-9xl font-extrabold mb-2"
+          className="text-6xl lg:text-9xl font-extrabold mb-2"
         >
           Omkar H. Patel
         </GradientText>
 
-        <div className="text-4xl sm:text-7xl text-gray-300 mb-6">
+        <div className="text-2xl sm:text-7xl text-gray-300 mb-6">
           <TextType 
             text={[
               "I am a Frontend Developer.",

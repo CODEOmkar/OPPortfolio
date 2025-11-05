@@ -46,7 +46,7 @@ export default function Skills(){
                 My Tech Stack:
             </GradientText>
 
-                <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-20 gap-y-10 p-8 justify-items-center pl-15 pr-15">
+                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-20 gap-y-10 p-8 justify-items-center pl-15 pr-15">
                 {[
                     { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
                     { name: 'C++', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' },

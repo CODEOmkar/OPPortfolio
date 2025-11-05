@@ -19,7 +19,7 @@ export default function About() {
 
                 <ShinyText 
                     text="Hello! I'm Omkar Hitalkumar Patel, a versatile Software Developer with a robust foundation in Computer Science Engineering and the ability to craft efficient, user-centric applications. My technical skills include programming in Python, SQL, along with hands-on experience in database management, web development technologies such as HTML, CSS, JavaScript, TypeScript, and software engineering principles. I thrive in environments where innovation is key. I am always excited to tackle new technical challenges and contribute to projects that require both front-end polish and deep backend engineering."
-                    className="max-w-xxl text-gray-300 text-lg sm:text-2xl leading-relaxed text-justify px-5 pt-5"
+                    className="max-w-xxl text-gray-300 text-lg sm:text-2xl leading-relaxed text-justify px-2 pt-5"
                 />
             </div>
 
