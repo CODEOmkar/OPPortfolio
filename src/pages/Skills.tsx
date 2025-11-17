@@ -1,16 +1,24 @@
 import GradientText from "../components/GradientText";
 import GlassSurface from "../components/GlassSurface";
-import LiquidChrome from "../components/LiquidChrome";
+// import LiquidChrome from "../components/LiquidChrome";
+import Silk from "../components/Silk";
 
 export default function Skills(){
     return(
         <div id="skill" className="relative w-full min-h-screen flex flex-col items-center justify-start pt-30 pb-0">
             <div className="absolute inset-0 z-0 pointer-events-none pt-5 pr-5 pl-5 pb-5">
-                <LiquidChrome
+                {/* <LiquidChrome
                     baseColor={[0.05, 0.05, 0.07]}
                     speed={0.1}
                     amplitude={0.4}
                     interactive={true}
+                /> */}
+                <Silk
+                    speed={3}
+                    scale={0.6}
+                    color="#626b90ff"
+                    noiseIntensity={0.5}
+                    rotation={5}
                 />
             </div>
             
