@@ -2,7 +2,8 @@ import GradientText from "../components/GradientText";
 import TextType from "../components/TextType";
 import ShinyText from "../components/ShinyText";
 import GlassSurface from "../components/GlassSurface";
-import LiquidChrome from "../components/LiquidChrome";
+// import LiquidChrome from "../components/LiquidChrome";
+import Silk from "../components/Silk";
 
 const scrollToSection = (id: string) => {
   const element = document.getElementById(id);
@@ -17,11 +18,18 @@ export default function Home() {
       
       {/* === BACKGROUND LAYER === */}
       <div className="absolute inset-0 z-0 pointer-events-none pb-5">
-        <LiquidChrome
+        {/* <LiquidChrome
             baseColor={[0.05, 0.05, 0.07]}
             speed={0.1}
             amplitude={0.4}
             interactive={true}
+        /> */}
+        <Silk
+            speed={3}
+            scale={0.6}
+            color="#626b90ff"
+            noiseIntensity={0.5}
+            rotation={5}
         />
       </div>
 
