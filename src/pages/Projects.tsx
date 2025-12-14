@@ -52,7 +52,7 @@ export default function Projects(){
                             </a>
                         </GlassSurface>
                         <GlassSurface width={100} height={40} borderRadius={50} displace={15} distortionScale={-150} redOffset={5} greenOffset={15} blueOffset={25} brightness={60} opacity={0.01} mixBlendMode="screen">
-                            <a href="https://note-mark-git-main-omkars-projects-2330d4f7.vercel.app?_vercel_share=YGg4pOl6skr1PGbbTCfknqsemHLojAD4" target="_blank" rel="noopener noreferrer" className="text-xs text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pr-2 pl-2">
+                            <a href="https://note-mark-lime.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-white text-center hover:text-blue-200 transition-colors pt-3 pb-3 pr-2 pl-2">
                                 Live Demo
                             </a>
                         </GlassSurface>
